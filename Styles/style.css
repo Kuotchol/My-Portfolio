@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f4f4f4;
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+header {
+    background: #030303;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero, .about, .projects, .contact {
+    margin: 50px auto;
+}
+    .profile-section {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #ffffff;
+      }
+  
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #150235;
+      }
+.project {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.motto {
+    font-size: 16px;
+    color: #333;
+    margin: 20px 0;
+    font-style: italic;
+    font-display: swap;
+    font-weight: bold;
+}
+.btn {
+    background: #3c02c2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bio {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 20px;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-display: swap;
+  }
+
+  .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1418ec;
+    font-weight: bold;
+  }
+
+  .resume-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    background: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

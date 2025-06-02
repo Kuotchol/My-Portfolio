@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project">
+            <h3>Immigration Online System</h3>
+            <p>A system for citizens and foreign nationals to apply for nationality, passports, and travel documents.</p>
+        </div>
+
+        <div class="project">
+            <h3>Livestock Management System</h3>
+            <p>A system using image recognition techniques to manage livestock data.</p>
+        </div>
+
+        <div class="project">
+            <h3>Student Attendance Management System</h3>
+            <p>A system for tracking student attendance with admin functionalities.</p>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-left">
+          &copy; <span id="year"></span> All Rights Reserved
+        </div>
+        <div class="footer-right">
+          Developed by Kuot Chol
+        </div>
+    </footer>
+      
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    
+    <style>
+      .site-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        font-size: 14px;
+        position: fixed; /* Change to fixed if you want it always visible */
+        bottom: 0;
+        width: 100%;
+        box-sizing: border-box; /* Ensures padding is included in width */
+        flex-wrap: wrap; /* Allows footer to wrap on smaller screens */
+        overflow-x: hidden; /* Prevents horizontal scroll */
+      }
+    
+      .footer-left,
+      .footer-right {
+        flex: 1;
+      }
+    
+      .footer-left {
+        text-align: left;
+      }
+    
+      .footer-right {
+        text-align: right;
+      }
+    </style>
+      
+</body>
+</html>
