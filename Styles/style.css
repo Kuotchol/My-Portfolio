@@ -101,7 +101,7 @@ nav ul li a {
     border-radius: 5px;
   }
 
-  .contact: form {
+  .contact form {
   width: 100%;
   max-width: 500px; /* or 400px for smaller form */
   background-color: #fff;
