@@ -101,6 +101,15 @@ nav ul li a {
     border-radius: 5px;
   }
 
+  .contact-form {
+  width: 100%;
+  max-width: 500px; /* or 400px for smaller form */
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
 form input, form textarea {
     display: block;
     width: 80%;
@@ -124,3 +133,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
