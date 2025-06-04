@@ -3,11 +3,12 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background: #f4f4f4;
+    background:rgb(116, 93, 93);
     height: auto;
     min-height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    height: 100%;
 }
 
 header {
