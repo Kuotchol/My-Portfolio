@@ -8,6 +8,12 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    background-image: url('Images/image.png'); /* or .png */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
 }
 
 header {
