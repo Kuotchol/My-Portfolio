@@ -111,7 +111,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-left: 500px;
+  margin-left: 700px;
 }
 
 form input, form textarea {
